@@ -7,15 +7,13 @@ function theBeatlesPlay(musicians, instruments) {
   return allMembers;
 }
 
-function johnLennonFacts(){
-  var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-  var statements = [];
+function johnLennonFacts(array){
   var i = 0;
-  while ( statements.length < facts.length) {
-    statements.push(facts[i] + "!!!");
-    i++; 
+  while (i <array.length) {
+    array[i] += "!!!";
+    i++;
   }
-return statements 
+  return array
 }
 
 function iLoveTheBeatles(number) {
