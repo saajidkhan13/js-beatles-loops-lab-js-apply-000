@@ -1,5 +1,4 @@
 // add solution here
-function theBeatlesPlay() {
-  for "John Lennon" in musicians 
-  return 
-}
+const musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"];
+const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
+
